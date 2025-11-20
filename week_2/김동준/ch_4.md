@@ -40,7 +40,7 @@
   - AOP
   - 프록시 서버(외부 rl 가능) : `NGINX Plus`
 - 분산 환경(MSA)까지 나아가면 rl 배치 레이어 선택지는 다양하게 늘어남
-  - API Gateway : `Spring Cloud Gateway`
+  - API Gateway : `Spring Cloud Gateway` + `Bucket4j`
   - 서비스 메쉬(서비스 간 네트워크, 서비스 간 호출량 제한) : `Istio`
   - 사이드카(서비스 개별 프록시, 각 서비스별 처리율 제한 정책) : `Envoy` + `Redis`
   - 기존 인 서비스 레이어
